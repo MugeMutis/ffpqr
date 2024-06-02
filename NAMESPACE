@@ -1,0 +1,19 @@
+export(
+"dgp",
+"fpqr",
+"predict_fpqr"
+)
+
+
+import(fda)
+import(MASS)
+import(quantreg)
+
+
+importFrom("graphics", "legend", "lines")
+importFrom("stats", ".getXlevels", "cov", "cov.wt", "dchisq", "var",
+             "integrate", "lm", "mahalanobis", "median", "model.matrix",
+             "na.omit", "pchisq", "pnorm", "qnorm", "qchisq", "quantile", "rnorm",
+             "runif", "terms", 	"rt", "rchisq")
+importFrom("expm", "sqrtm")
+importFrom("cvTools", "cvFolds")

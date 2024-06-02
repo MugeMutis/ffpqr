@@ -1,0 +1,18 @@
+Package: ffpqr
+Type: Package
+Title: Function-on-function partial quantile regression
+Version: 1.0
+Depends: R (>= 3.5.0), fda, MASS, quantreg
+Imports: expm, cvTools
+LazyLoad: yes
+ByteCompile: TRUE
+Encoding: UTF-8
+Authors@R: c(
+  person("Muge", "Mutis", email="muge.mutis@yildiz.edu.tr", role=c("aut", "cre", "cph"), comment = c(ORCID = "0000-0002-9801-4835")),
+	person("Ufuk", "Beyaztas", role="aut", comment = c(ORCID = "0000-0002-5208-4950")),
+	person("Filiz", "Karaman", role="aut", comment = c(ORCID = "0000-0002-8491-674X")),
+	person("Han Lin", "Shang", role="aut", comment = c(ORCID = "0000-0003-1769-6430"))
+	)
+Maintainer: Muge Mutis <muge.mutis@yildiz.edu.tr>
+Description: Functions for implementing methods for function-on-function linear quantile regression.
+License: GPL-3
