@@ -1,7 +1,7 @@
 # ffpqr
 Function-on-function partial quantile regression
 # How to install?
-Type the folloqinfs to install the ffpqr R package
+Type the followings to install the ffpqr R package
 library(devtools)
 install_github("MugeMutis/ffpqr")
 # Package manual
